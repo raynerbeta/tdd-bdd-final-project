@@ -125,7 +125,8 @@ def list_products():
 # R E A D   A   P R O D U C T
 ######################################################################
 
-@app.route("/products/<product_id>", methods = ["GET"])
+
+@app.route("/products/<product_id>", methods=["GET"])
 def get_products(product_id):
     """
     Retrieve a single Product
